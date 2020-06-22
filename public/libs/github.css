@@ -1,0 +1,407 @@
+/*
+Copyright (c) 2017 Chris Patuzzo
+https://twitter.com/chrispatuzzo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+#taskDefinition {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+#taskDefinition > *:first-child {
+  margin-top: 0 !important;
+}
+
+#taskDefinition > *:last-child {
+  margin-bottom: 0 !important;
+}
+
+#taskDefinition a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+#taskDefinition a.absent {
+  color: #cc0000;
+}
+
+#taskDefinition a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+#taskDefinition h1, #taskDefinition h2, #taskDefinition h3, #taskDefinition h4, #taskDefinition h5, #taskDefinition h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative;
+}
+
+#taskDefinition h2:first-child, #taskDefinition h1:first-child, #taskDefinition h1:first-child + h2, #taskDefinition h3:first-child, #taskDefinition h4:first-child, #taskDefinition h5:first-child, #taskDefinition h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#taskDefinition h1:hover a.anchor, #taskDefinition h2:hover a.anchor, #taskDefinition h3:hover a.anchor, #taskDefinition h4:hover a.anchor, #taskDefinition h5:hover a.anchor, #taskDefinition h6:hover a.anchor {
+  text-decoration: none;
+}
+
+#taskDefinition h1 tt, #taskDefinition h1 code {
+  font-size: inherit;
+}
+
+#taskDefinition h2 tt, #taskDefinition h2 code {
+  font-size: inherit;
+}
+
+#taskDefinition h3 tt, #taskDefinition h3 code {
+  font-size: inherit;
+}
+
+#taskDefinition h4 tt, #taskDefinition h4 code {
+  font-size: inherit;
+}
+
+#taskDefinition h5 tt, #taskDefinition h5 code {
+  font-size: inherit;
+}
+
+#taskDefinition h6 tt, #taskDefinition h6 code {
+  font-size: inherit;
+}
+
+#taskDefinition h1 {
+  font-size: 28px;
+  color: black;
+}
+
+#taskDefinition h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black;
+}
+
+#taskDefinition h3 {
+  font-size: 18px;
+}
+
+#taskDefinition h4 {
+  font-size: 16px;
+}
+
+#taskDefinition h5 {
+  font-size: 14px;
+}
+
+#taskDefinition h6 {
+  color: #777777;
+  font-size: 14px;
+}
+
+#taskDefinition p, #taskDefinition blockquote, #taskDefinition table, #taskDefinition pre {
+  margin: 7px 0;
+}
+
+#taskDefinition ul, #taskDefinition ol, #taskDefinition dl, #taskDefinition li {
+  margin: 5px 0;
+}
+
+#taskDefinition hr {
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+#taskDefinition body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#taskDefinition body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#taskDefinition body > h1:first-child + h2 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#taskDefinition body > h3:first-child, #taskDefinition body > h4:first-child, #taskDefinition body > h5:first-child, #taskDefinition body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#taskDefinition a:first-child h1, #taskDefinition a:first-child h2, #taskDefinition a:first-child h3, #taskDefinition a:first-child h4, #taskDefinition a:first-child h5, #taskDefinition a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#taskDefinition h1 p, #taskDefinition h2 p, #taskDefinition h3 p, #taskDefinition h4 p, #taskDefinition h5 p, #taskDefinition h6 p {
+  margin-top: 0;
+}
+
+#taskDefinition li p.first {
+  display: inline-block;
+}
+
+#taskDefinition ul, #taskDefinition ol {
+  padding-left: 30px;
+}
+
+#taskDefinition ul :first-child, #taskDefinition ol :first-child {
+  margin-top: 0;
+}
+
+#taskDefinition ul :last-child, #taskDefinition ol :last-child {
+  margin-bottom: 0;
+}
+
+#taskDefinition dl {
+  padding: 0;
+}
+
+#taskDefinition dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+#taskDefinition dl dt:first-child {
+  padding: 0;
+}
+
+#taskDefinition dl dt > :first-child {
+  margin-top: 0;
+}
+
+#taskDefinition dl dt > :last-child {
+  margin-bottom: 0;
+}
+
+#taskDefinition dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+#taskDefinition dl dd > :first-child {
+  margin-top: 0;
+}
+
+#taskDefinition dl dd > :last-child {
+  margin-bottom: 0;
+}
+
+#taskDefinition blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777;
+}
+
+#taskDefinition blockquote > :first-child {
+  margin-top: 0;
+}
+
+#taskDefinition blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+#taskDefinition table {
+  padding: 0;
+}
+#taskDefinition table tr {
+  border-top: 1px solid #cccccc;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+#taskDefinition table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+#taskDefinition table tr th {
+  font-weight: bold;
+  border: 1px solid #cccccc;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+
+#taskDefinition table tr td {
+  border: 1px solid #cccccc;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+
+#taskDefinition table tr th :first-child, #taskDefinition table tr td :first-child {
+  margin-top: 0;
+}
+
+#taskDefinition table tr th :last-child, #taskDefinition table tr td :last-child {
+  margin-bottom: 0;
+}
+
+#taskDefinition img {
+  max-width: 100%;
+}
+
+#taskDefinition span.frame {
+  display: block;
+  overflow: hidden;
+}
+
+#taskDefinition span.frame > span {
+  border: 1px solid #dddddd;
+  display: block;
+  float: left;
+  overflow: hidden;
+  margin: 13px 0 0;
+  padding: 7px;
+  width: auto;
+}
+
+#taskDefinition span.frame span img {
+  display: block;
+  float: left;
+}
+
+#taskDefinition span.frame span span {
+  clear: both;
+  color: #333333;
+  display: block;
+  padding: 5px 0 0;
+}
+
+#taskDefinition span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+#taskDefinition span.align-center > span {
+  display: block;
+  overflow: hidden;
+  margin: 13px auto 0;
+  text-align: center;
+}
+
+#taskDefinition span.align-center span img {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#taskDefinition span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+#taskDefinition span.align-right > span {
+  display: block;
+  overflow: hidden;
+  margin: 13px 0 0;
+  text-align: right;
+}
+
+#taskDefinition span.align-right span img {
+  margin: 0;
+  text-align: right;
+}
+
+#taskDefinition span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left;
+}
+
+#taskDefinition span.float-left span {
+  margin: 13px 0 0;
+}
+
+#taskDefinition span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right;
+}
+
+#taskDefinition span.float-right > span {
+  display: block;
+  overflow: hidden;
+  margin: 13px auto 0;
+  text-align: right;
+}
+
+#taskDefinition code, #taskDefinition tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+#taskDefinition pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+#taskDefinition .highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+#taskDefinition pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+#taskDefinition pre code, #taskDefinition pre tt {
+  background-color: transparent;
+  border: none;
+}

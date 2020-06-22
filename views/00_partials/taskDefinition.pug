@@ -1,0 +1,8 @@
+.card.mb-3
+    .card-header
+        h3.card-title.d-inline-block.mb-0.align-bottom=`${title} - Aufgabenstellung`
+        #hideTaskBtn.btn.btn-sm.btn-dark.float-right Umschalten
+    #taskDefinition.card-body.py-2(data-task_no=`${taskNo}`)
+        each part in taskDefinition
+            .d-inline-block.align-text-top.mr-3
+                | !{part}

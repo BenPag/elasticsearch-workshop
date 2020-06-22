@@ -1,0 +1,9 @@
+header.mb-3
+    nav#navigation-bar.navbar.navbar-expand.navbar-dark.bg-dark.px-5
+        a.navbar-brand(href='/') Elasticsearch Workshop
+        .collapse.navbar-collapse
+            ul.navbar-nav.mr-auto
+                li.nav-item(class=taskNo === 1 ? 'active' : '')
+                    a.nav-link(href='/tasks/1', target='_self') Aufgabe 1
+                li.nav-item(class=taskNo === 2 ? 'active' : '')
+                    a.nav-link(href='/tasks/2', target='_self') Aufgabe 2

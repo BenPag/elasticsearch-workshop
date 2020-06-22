@@ -1,0 +1,43 @@
+.card
+    .card-header
+        h3.card-title.d-inline-block.mb-0.align-bottom Filter
+        button#elastic-filter-form-submit.btn.btn-sm.btn-info.ml-3(type='button') Suchen
+    .card-body.py-2
+        form#elastic-filter-form
+            .form-row
+                .form-group.col-md-2.mb-2
+                    label(for='account_number') Account Nr.
+                    input#account_number.form-control.form-control-sm(name='account_number' type='text' placeholder='Account Nr.')
+                .form-group.col-md-2.mb-2
+                    label(for='balance') Saldo
+                    input#balance.form-control.form-control-sm(name='balance' type='text' placeholder='Saldo')
+                .form-group.col-md-2.mb-2
+                    label(for='firstname') Vorname
+                    input#firstname.form-control.form-control-sm(name='firstname' type='text' placeholder='Vorname')
+                .form-group.col-md-2.mb-2
+                    label(for='lastname') Nachname
+                    input#lastname.form-control.form-control-sm(name='lastname' type='text' placeholder='Nachname')
+                .form-group.col-md-2.mb-2
+                    label(for='age') Alter
+                    input#age.form-control.form-control-sm(name='age' type='text' placeholder='Alter')
+                .form-group.col-md-2.mb-2
+                    label(for='address') Adresse
+                    input#address.form-control.form-control-sm(name='address' type='text' placeholder='Adresse')
+                .form-group.col-md-2.mb-2
+                    label(for='employer') Arbeitgeber
+                    input#employer.form-control.form-control-sm(name='employer' type='text' placeholder='Arbeitgeber')
+                .form-group.col-md-2.mb-2
+                    label(for='email') E-Mail
+                    input#email.form-control.form-control-sm(name='email' type='email' placeholder='E-Mail')
+                .form-group.col-md-2.mb-2
+                    label(for='city') City
+                    input#city.form-control.form-control-sm(name='city' type='text' placeholder='City')
+                .form-group.col-md-2.mb-2
+                    label(for='state') Staat
+                    input#state.form-control.form-control-sm(name='state' type='text' placeholder='Staat')
+                .form-group.col-md-2.mb-2
+                    label(for='gender') Geschlecht
+                    select#gender.form-control.form-control-sm(name='gender')
+                        option(selected='', disabled=true) Wählen...
+                        option(value="M") Männlich
+                        option(value="F") Weiblich

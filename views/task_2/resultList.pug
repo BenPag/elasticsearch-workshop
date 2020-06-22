@@ -1,0 +1,20 @@
+#filter-result-view.overflow-auto(style='height:550px; border-top:1px solid #dee2e6')
+    table.table.table-hover.table-striped.table-bordered
+        thead
+            tr
+                th.bg-white Account Nr.
+                th.bg-white Saldo
+                th.bg-white Vorname
+                th.bg-white Nachname
+                th.bg-white Alter
+                th.bg-white Geschlecht
+                th.bg-white Adresse
+                th.bg-white Arbeitgeber
+                th.bg-white E-Mail
+                th.bg-white City
+                th.bg-white Staat
+        tbody.table-sm(style='top: 500px; position:relative')
+            each account in accounts
+                tr
+                    each key in accountKeys
+                        td=account[key]

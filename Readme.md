@@ -20,6 +20,8 @@ Sollte das nicht funktionieren bitte ich rechtzeitig Bescheid zu geben.
 * Docker 4 GB Arbeitsspeicher zur Verfügung stellen
   * Settings &rarr; Resources &rarr; Advanced
   
+![](https://github.com/BenPag/elasticsearch-workshop/blob/master/public/img/docker_settings.png)
+
 ### Workshop Projekt
 1. Repository klonen `git clone https://github.com/BenPag/elasticsearch-workshop.git`
 2. In das Repository-Verzeichnis wechseln

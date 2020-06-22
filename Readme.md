@@ -8,7 +8,7 @@ andererseits soll im praktischen Teil der allgemeine Umgang mit der Elasticsearc
 Dabei lernen die Teilnehmenden, wie beispielsweise Dokumente in Elasticsearch gespeichert und durchsucht werden können. 
 
 ## Vorbereitung
-Bei Fragen oder Problemen stehe ich jederzeit über Slack oder per Mail unter benjamin.pagelsdorf@th-koeln.de zur Verfügung.
+Bei Fragen oder Problemen stehe ich jederzeit über Slack oder per Mail unter benjamin.pagelsdorf@smail.th-koeln.de zur Verfügung.
 
 ### Docker 
 Damit eine einfache Bereitstellung von Elasticsearch erfolgen kann, sollte Docker auf dem Computer installiert sein.

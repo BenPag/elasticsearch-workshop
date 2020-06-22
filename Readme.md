@@ -1,4 +1,4 @@
-![Elasticsearch Logo](https://github.com/BenPag/elasticsearch-workshop/tree/master/public/img/elastic-search-logo-color-horizontal.svg)
+![Elasticsearch Logo](https://raw.githubusercontent.com/BenPag/elasticsearch-workshop/master/public/img/elastic-search-logo-color-horizontal.svg)
 > Elasticsearch is a trademark of Elasticsearch BV, registered in the U.S. and in other countries.
 
 # Workshop Getting Started in Elasticsearch
@@ -25,7 +25,7 @@ Sollte das nicht funktionieren bitte ich rechtzeitig Bescheid zu geben.
 2. Abhängigkeiten installieren: `npm install` 
 3. Elasticsearch & Kibana starten `docker-compose up -d`
 4. Workshop Projekt starten `npm run serve`
-5. folgende Urls sollten verfügbar sein:
+5. Folgende URLs sollten verfügbar sein:
    * Workshop Frontend: http://localhost:3000/
    * Elasticsearch: http://localhost:9200/
    * Kibana: http://localhost:5601/

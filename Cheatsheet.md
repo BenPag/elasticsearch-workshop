@@ -1,4 +1,11 @@
-## Elasticsearch REST API Links
-  * [Document APIs](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html)
-  * [Search API](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-search.html#search-search-api-example)
-  * [Search Template](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-template.html)
+# Hilfreiche Links
+* [Elasticsearch: Run a search](https://www.elastic.co/guide/en/elasticsearch/reference/current/run-a-search.html)
+* [Elasticsearch: Request Body Parameters](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-request-body.html#search-request-body)
+* [Elasticsearch: Volltextsuche](https://www.elastic.co/guide/en/elasticsearch/reference/current/full-text-queries.html#full-text-queries)
+* [Elasticsearch: Request Body Search](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-search.html#search-search-api-request-body)
+* [Elasticsearch: Query DSL](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html)
+* [Kibana Dev-Konsole](http://localhost:5601/app/kibana#/dev_tools/console)
+* [Document APIs](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html)
+* [Search API](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-search.html#search-search-api-example)
+* [Search Template](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-template.html)
+* [Node.js Client Helper](https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/client-helpers.html)

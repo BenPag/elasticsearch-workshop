@@ -22,10 +22,11 @@ Sollte das nicht funktionieren bitte ich rechtzeitig Bescheid zu geben.
   
 ### Workshop Projekt
 1. Repository klonen `git clone https://github.com/BenPag/elasticsearch-workshop.git`
-2. Abhängigkeiten installieren: `npm install` 
-3. Elasticsearch & Kibana starten `docker-compose up -d`
-4. Workshop Projekt starten `npm run serve`
-5. Folgende URLs sollten verfügbar sein:
+2. In das Repository-Verzeichnis wechseln
+3. Abhängigkeiten installieren: `npm install` 
+4. Elasticsearch & Kibana starten `docker-compose up -d`
+5. Workshop Projekt starten `npm run serve`
+6. Folgende URLs sollten verfügbar sein:
    * Workshop Frontend: http://localhost:3000/
    * Elasticsearch: http://localhost:9200/
    * Kibana: http://localhost:5601/

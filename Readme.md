@@ -33,6 +33,15 @@ Sollte das nicht funktionieren bitte ich rechtzeitig Bescheid zu geben.
    * Elasticsearch: http://localhost:9200/
    * Kibana: http://localhost:5601/
 
+#### Elasticsearch & Kibana beenden
+Zum Beenden und löschen der Volumen gelöscht folgenden Befehl ausführen:
+    
+    docker-compose down -v
+
+Sollen die Volumen erhalten bleiben, dann folgenden Befehl ausführen:
+
+    docker-compose down
+    
 ## Links
 * [Elasticsearch REST APIs](https://www.elastic.co/guide/en/elasticsearch/reference/current/rest-apis.html)
 * [Elasticsearch Reference](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)

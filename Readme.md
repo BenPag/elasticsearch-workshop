@@ -31,14 +31,14 @@ Sollte das nicht funktionieren bitte ich rechtzeitig Bescheid zu geben.
 6. Folgende URLs sollten verfügbar sein:
    * Workshop Frontend: http://localhost:3000/
    * Elasticsearch: http://localhost:9200/
-   * Kibana: http://localhost:5601/
+   * Kibana: http://localhost:5601/ (Der Startvorgang kann hier einige Minuten dauern)
 
 #### Elasticsearch & Kibana beenden
-Zum Beenden und löschen der Volumen gelöscht folgenden Befehl ausführen:
+Zum Beenden und Löschen der Volumen kann folgender Befehl ausgeführt werden:
     
     docker-compose down -v
 
-Sollen die Volumen erhalten bleiben, dann folgenden Befehl ausführen:
+Sollen die Volumen erhalten bleiben, kann folgender Befehl ausgeführt werden:
 
     docker-compose down
     

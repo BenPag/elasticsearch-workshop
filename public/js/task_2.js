@@ -10,11 +10,10 @@ $(document).ready(function () {
   $('#elastic-filter-form-submit').click(function () {
     const filterData = {};
     for (let item of form.serializeArray()){
-      if (item.value.trim() === '') {
+      if (item.value.trim() !== '') {
         filterData[item.name] = item.value;
       }
     }
-    console.log(filterData);
     sendFilterRequest(filterData);
   });
 

@@ -33,10 +33,15 @@ async function search (filterObj) {
 
 // --- ToDo task 2
 function generateQueryObj(filterObj) {
+  const query = {
+    // ToDo replace match_all operation with your own
+    'match_all': { }
+  };
+
   const queryObj = {
-    query: { 'match_all': {} },
+    query: query,
     sort: [
-      { 'account_number': 'asc'}
+      { 'account_number': 'asc' }
     ],
     size: 10
   };
@@ -46,6 +51,7 @@ function generateQueryObj(filterObj) {
 
 function parseElasticResult(response) {
   if (response.data && response.data.hits && response.data.hits.hits) {
+    console.log(response.data);
     return response.data.hits.hits.map(hit => hit._source);
   }
   return [];

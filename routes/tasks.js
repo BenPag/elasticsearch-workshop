@@ -6,7 +6,7 @@ let singleCounter = 1;
  *  Ansichten zu den Aufgaben
  */
 router.get('/:taskId', async function(req, res, next) {
-  const taskNo = parseInt(req.params.taskId);
+  const taskNo = req.params.taskId;
   const viewData = {
     taskNo: taskNo,
     title: `Aufgabe ${taskNo}`
@@ -20,7 +20,7 @@ router.get('/:taskId', async function(req, res, next) {
     viewData.taskDefinition = '';
   }
 
-  if (taskNo === 2) {
+  if (taskNo === '2') {
     viewData.accounts = await loadData();
     viewData.accountKeys = viewData.accounts.length > 0 ? Object.keys(viewData.accounts[0]) : [];
   }

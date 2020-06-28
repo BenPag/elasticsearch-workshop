@@ -1,8 +1,8 @@
 ![Elasticsearch Logo](https://raw.githubusercontent.com/BenPag/elasticsearch-workshop/master/public/img/elastic-search-logo-color-horizontal.svg)
 > Elasticsearch is a trademark of Elasticsearch BV, registered in the U.S. and in other countries.
 
-# Workshop Getting Started in Elasticsearch
-Der Workshop _Getting Started in Elasticsearch_ bietet den Teilnehmenden einen ersten Einblick in _Elasticsearch_.
+# Workshop Getting Started with Elasticsearch
+Der Workshop _Getting Started with Elasticsearch_ bietet den Teilnehmenden einen ersten Einblick in _Elasticsearch_.
 Während des Workshops soll einerseits die Vielzahl der Möglichkeiten von Elasticsearch eröffnet werden, 
 andererseits soll im praktischen Teil der allgemeine Umgang mit der Elasticsearch-APIs erläutert werden. 
 Dabei lernen die Teilnehmenden, wie beispielsweise Dokumente in Elasticsearch gespeichert und durchsucht werden können. 
